@@ -6,13 +6,13 @@
 #    By: dhelly <dhelly@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/15 15:46:42 by dhelly            #+#    #+#              #
-#    Updated: 2019/03/27 15:28:50 by wjeyne-d         ###   ########.fr        #
+#    Updated: 2019/04/22 17:58:22 by wjeyne-d         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 LNAME = libft
-SRCS = ft_flags.c ft_printf.c ft_itoa_base_uns.c ft_print_def.c ft_width.c ft_maker.c ft_hash_maker.c ft_kostili.c ft_precision.c ft_print_float.c ft_move_size.c ft_check_err.c
+SRCS = ft_flags.c ft_printf.c ft_itoa_base_uns.c ft_print_def.c ft_width.c ft_maker.c ft_hash_maker.c ft_functions.c ft_precision.c ft_print_float.c ft_move_size.c ft_check_err.c
 OBJ = *.o
 OBJ2 = libft/ft_*.o
 FLAGS = -Wall -Wextra -Werror
