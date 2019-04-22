@@ -22,7 +22,7 @@ This project's aim is to recode the libc's printf function.
 <li>L</li>
 </ul>
 </ul>
-It also supports:
+### It also supports:
 <ul>
 <li>%% management</li>
 <li>#, 0, -, +, " " flags</li>
