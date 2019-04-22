@@ -7,14 +7,13 @@ Some also propose to recall this string without printing it. In short, undeniabl
 This project's aim is to recode the libc's printf function.
 This version supports the following conversions:
 <ul>
-<li>c</li>
-<li>s</li>
-<li>p</li>
-<li>d</li>
-<li>i</li>
-<li>o</li>
-<li>u</li>
-<li>X</li>
-<li>X</li>
+<li>csp</li>
+<li>diouxX</li>
+<ul>
+<li>hh</li>
+<li>h</li>
+<li>ll</li>
+<li>l</li>
+</ul>
 <li>f</li>
 </ul>
