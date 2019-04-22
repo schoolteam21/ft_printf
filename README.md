@@ -5,15 +5,35 @@ Some also propose to recall this string without printing it. In short, undeniabl
 
 ## Goals
 This project's aim is to recode the libc's printf function.
-This version supports the following conversions:
+
+### This version supports the following conversions:
 <ul>
 <li>csp</li>
-<li>diouxX</li>
+<li>diouxX with flags:</li>
 <ul>
 <li>hh</li>
 <li>h</li>
 <li>ll</li>
 <li>l</li>
 </ul>
-<li>f</li>
+<li>f with flags:</li>
+<li>l</li>
+<li>L</li>
 </ul>
+It also supports:
+<ul>
+<li>%% management</li>
+<li>#, 0, -, +, " " flags</li>
+<li>width</li>
+<li>precision</li>
+</ul>
+
+
+Some cases of undefined behaviour are managed to work properly.
+
+## Installation
+
+Use Makefile to compile.
+```bash
+make
+```
