@@ -17,8 +17,10 @@ This project's aim is to recode the libc's printf function.
 <li>l</li>
 </ul>
 <li>f with flags:</li>
+<ul>
 <li>l</li>
 <li>L</li>
+</ul>
 </ul>
 It also supports:
 <ul>
